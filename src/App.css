@@ -1,0 +1,200 @@
+.App {
+  text-align: center;
+  background-color : white;
+  background-image : url("hypnotize.png"), url("circles-light.png");
+  background-repeat: repeat;
+  background-blend-mode: darken;
+}
+
+h1 {
+  margin-bottom : 15px;
+  margin-top : 15px;
+}
+
+h2 {
+  margin : 10px 0px 10px 0px;
+}
+
+.Logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.AppHeader {
+  background-color: #222;
+  height: auto;
+  padding: 20px;
+  color: white;
+  display : flex;
+  justify-content: space-between;
+
+  border : white;
+  border-width : 0px 0px 0px 0px;
+  border-style: solid;
+}
+
+.AppHeader > .WhiteIcon {
+  font-size : 2em;
+}
+
+.WhiteIcon {
+  align-self : center;
+  color : white;
+}
+
+.WhiteIcon:hover {
+  color : #222;
+  background-color : white;
+  cursor : pointer;
+}
+
+.WhiteIcon:active {
+  background-color : #222;
+  color : white;
+}
+
+.SectionHeader > .BlackIcon {
+  font-size : 3em;
+}
+
+.BlackIcon {
+  color : black;
+  align-self : center;
+}
+
+.BlackIcon:hover {
+  color : white;
+  background-color : #222;
+  cursor : pointer;
+}
+
+.BlackIcon:active {
+  background-color : white;
+  color : #222;
+}
+
+.TopNav {
+  height : auto;
+  display : flex;
+  flex-direction : row;
+  justify-content: center;
+  -moz-user-select : none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.TopNav > ul {
+  text-align : left;
+  padding : 5px;
+  margin : 5px 20px;
+  color : white;
+}
+
+.TopNav > ul:hover {
+  color : #222;
+  background-color : white;
+  cursor : pointer;
+}
+
+.TopNav > ul:active {
+  background-color : #222;
+  color : white;
+}
+
+.Main > div {
+  padding-top : 10px;
+  width : 70%;
+}
+
+.Main > nav {
+  padding-top : 0px;
+}
+
+.Main {
+  display : flex;
+}
+
+.LeftContent {
+  padding : 2.5%;
+  flex : 1;
+}
+
+.LeftContent > video {
+  height : 100%;
+  width : 100%;
+}
+
+.MiddleContent {
+  padding : 2.5%;
+  text-align : left;
+  flex : 2;
+}
+
+.RightContent {
+  padding : 2.5%;
+  text-align : left;
+  flex : 1;
+}
+
+.SectionHeader {
+  display: flex;
+  justify-content : space-between;
+  align-items : center;
+
+  border-bottom: #222;
+  border-bottom-style : solid;
+  border-bottom-width : 1px;
+}
+
+.BlogTeaser {
+  border-bottom: #222;
+  border-bottom-style : solid;
+  border-bottom-width : 1px;
+  padding : 1px;
+}
+
+.BlogTeaser:hover  {
+  color : white;
+  background-color : #222;
+  cursor : pointer;
+}
+
+p.Date {
+  font-size : .85em;
+}
+
+.BlogTeaser > p {
+  margin : 10px 5px 10px 5px;
+}
+
+.BlogTeaser > h2 {
+  margin-bottom: 2px;
+}
+
+.ProjectSummary {
+  border-bottom-style : solid;
+  border-color : black;
+  border-width : 1px;
+  padding-bottom: 15px;
+}
+
+footer {
+  padding : 2px 0px 2px 0px; 
+}
+
+
+/*
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
