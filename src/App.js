@@ -120,7 +120,7 @@ class FunnyGif extends Component {
   render() {
     return (
       <div className="LeftContent">
-        <video autoPlay1 loop>
+        <video autoPlay loop>
           <source src={dog} type="video/mp4"/>
         </video>
       </div>
@@ -250,12 +250,12 @@ class Projects extends Component {
         <SectionHeader title="Projects" section={this.props.section}/>
         <ProjectSummary 
           title="WebScraper" 
-          summary="The objective of this was to scrape relevant product information provided publically on the Woolworths website"
+          summary="The objective of this was to scrape relevant product information provided publically on a large retail website"
           skills="Python, HTML, Scrapy, Selenium">
         </ProjectSummary>
         <ProjectSummary 
           title="Text-Based Personality Questionaire Game" 
-          summary="The objective of this was to scrape relevant product information provided publically on the Woolworths website"
+          summary="The objective of this was to scrape relevant product information provided publically on a large retail website"
           skills="HTML, CSS, JavaScript, PHP, MySQL">
         </ProjectSummary>
       </div>
@@ -281,7 +281,7 @@ class AboutMe extends Component {
       <div className="AboutMe">
         <SectionHeader title="About Me" section={this.props.section}/>
         <h2>Background</h2>
-          <p>My name is Craig I am an aspiring software developer. I originally studied psychology but have since fallen in love with all things programming; this challenge etc</p>
+          <p>blah blah blah</p>
         <h2>Interests</h2>
           <p>blah blah blah blah</p>
       </div>
